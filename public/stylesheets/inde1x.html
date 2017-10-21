@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+this is index.html 大大
+<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script>
+  $(function () {
+    $.ajax({
+      url:'post',
+      type:'post',
+      success:function (res) {
+        console.log(res);
+      }
+    });
+  });
+</script>
+</body>
+</html>
